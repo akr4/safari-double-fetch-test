@@ -1,0 +1,20 @@
+version: "2"
+services:
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - "./nginx.conf:/etc/nginx/nginx.conf:ro"
+      - "./public:/public:ro"
+    ports:
+      - "4000:80"
+
+  node:
+    image: "node:8"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - .:/home/node/app
+    command: "npm start"
