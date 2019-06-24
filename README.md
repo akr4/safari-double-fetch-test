@@ -38,6 +38,7 @@ window.onload = () => {
 
 ## Memo
 
+- Tested with Safari 12.1.1 (14607.2.6.1.1).
 - Chrome doesn't do like that.
 - Safari's private window also doesn't.
 
