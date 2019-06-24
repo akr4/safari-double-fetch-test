@@ -36,6 +36,9 @@ window.onload = () => {
 </html>
 ```
 
+## Related articles
+- https://stackoverflow.com/questions/5956501/safari-double-submitting-ajax-calls
+
 ## Memo
 
 - Tested with Safari 12.1.1 (14607.2.6.1.1).
