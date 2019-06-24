@@ -13,7 +13,7 @@ nginx_1  | 172.18.0.1 - - [24/Jun/2019:00:02:00 +0000] "GET /api/hello HTTP/1.1"
 ```
 
 There're two `/api/hello` calls. These lines are produced by the simple HTML.
-```
+```html
 <!doctype html>
 <html>
   <head>
