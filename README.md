@@ -36,6 +36,11 @@ window.onload = () => {
 </html>
 ```
 
+## Memo
+
+- Chrome doesn't do like that.
+- Safari's private window also doesn't.
+
 ## How to run
 1. `docker-compose run`
 2. Hit `http://localhost:5000` by Safari
